@@ -1,0 +1,468 @@
+.container-fluid {
+  margin: auto 0;
+  padding: 0px;
+  width: 100%; }
+
+header {
+  background: url(../img/city.jpg);
+  background-repeat: no-repeat; }
+  header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; }
+    header .navbar .brand-title {
+      font-size: 1.5rem;
+      margin: .5rem; }
+    header .navbar .navbar-links ul {
+      margin: 0;
+      padding: 0;
+      display: flex; }
+    header .navbar .navbar-links li {
+      list-style: none; }
+      header .navbar .navbar-links li a {
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        display: block; }
+    header .navbar .toggle-button {
+      position: absolute;
+      top: 1.5rem;
+      right: 1rem;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px; }
+    @media (max-width: 426px) {
+      header .navbar .toggle-button {
+        display: flex;
+        text-decoration: none;
+        color: white;
+        font-size: 22px; }
+      header .navbar .navbar-links {
+        width: 100%;
+        display: none; }
+      header .navbar .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; }
+      header .navbar .navbar-links ul {
+        flex-direction: column;
+        width: 100%; }
+      header .navbar .navbar-links li {
+        text-align: center; }
+        header .navbar .navbar-links li a {
+          padding: .5rem 1rem; }
+      header .navbar .navbar-links.active {
+        display: flex; } }
+  header .logo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; }
+    header .logo1 .fa-square {
+      font-size: 70px;
+      color: grey; }
+    header .logo1 h4 {
+      font-size: 12px; }
+    header .logo1 p {
+      width: 40%;
+      text-align: center;
+      padding-top: 80px;
+      font-size: 10px; }
+      @media (max-width: 426px) {
+        header .logo1 p {
+          font-size: 15px;
+          width: 70%; } }
+    header .logo1 h5 {
+      font-size: 12px;
+      padding-bottom: 5px; }
+    header .logo1 .logo2 {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      padding-top: 12%; }
+    header .logo1 .logo3 {
+      display: flex;
+      flex-direction: column;
+      position: absolute; }
+    header .logo1 button {
+      background-color: transparent;
+      color: #fff;
+      padding: 5px 15px;
+      border: 1px solid #fff; }
+  header h3 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    padding: 80px 0px 30px 0px; }
+    @media (max-width: 426px) {
+      header h3 {
+        font-size: 15px; } }
+
+.firstbox {
+  padding-top: 60px;
+  background: url(../img/computer.jfif); }
+  .firstbox .teaminfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    @media (max-width: 768px) {
+      .firstbox .teaminfo {
+        padding-bottom: 50px; } }
+    .firstbox .teaminfo h2 {
+      color: #fff;
+      font-size: 15px; }
+      @media (max-width: 426px) {
+        .firstbox .teaminfo h2 {
+          font-size: 22px; } }
+    .firstbox .teaminfo hr {
+      width: 30px;
+      color: #fff;
+      margin-top: -8px; }
+  .firstbox .teamleader {
+    padding-bottom: 3%;
+    padding-top: 20px;
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .firstbox .teamleader .team1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .firstbox .teamleader .team1 img {
+        width: 180px;
+        height: 100px; }
+
+.second {
+  padding: 50px 0px 100px 0px; }
+  .second .teaminfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .second .teaminfo h2 {
+      color: skyblue;
+      font-size: 15px; }
+      @media (max-width: 426px) {
+        .second .teaminfo h2 {
+          font-size: 24px; } }
+    .second .teaminfo hr {
+      width: 30px;
+      color: skyblue;
+      margin-top: -8px; }
+    .second .teaminfo p {
+      width: 30%;
+      color: grey;
+      font-size: 10px;
+      margin-bottom: 40px;
+      text-align: center; }
+      @media (max-width: 426px) {
+        .second .teaminfo p {
+          font-size: 20px;
+          width: 80%; } }
+  .second .teamleader {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    @media (max-width: 426px) {
+      .second .teamleader {
+        display: flex;
+        flex-direction: column; } }
+    .second .teamleader .team1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px; }
+      .second .teamleader .team1 img {
+        width: 140px;
+        height: 140px; }
+      .second .teamleader .team1 h3 {
+        color: skyblue;
+        font-size: 10px;
+        margin-top: 10px; }
+        @media (max-width: 426px) {
+          .second .teamleader .team1 h3 {
+            font-size: 20px; } }
+      .second .teamleader .team1 h4 {
+        font-size: 8px;
+        text-align: center; }
+        @media (max-width: 426px) {
+          .second .teamleader .team1 h4 {
+            font-size: 18px; } }
+
+main .teaminfo {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  main .teaminfo h2 {
+    color: skyblue;
+    font-size: 15px; }
+    @media (max-width: 426px) {
+      main .teaminfo h2 {
+        font-size: 22px; } }
+  main .teaminfo hr {
+    width: 30px;
+    color: skyblue;
+    margin-top: -8px; }
+main .teamleader {
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  @media (max-width: 426px) {
+    main .teamleader {
+      display: flex;
+      flex-direction: column; } }
+  main .teamleader .team1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    @media (max-width: 426px) {
+      main .teamleader .team1 {
+        margin-top: 8px;
+        margin-bottom: 4px; } }
+    main .teamleader .team1 .fas {
+      font-size: 40px;
+      color: grey; }
+    main .teamleader .team1 .far {
+      font-size: 40px;
+      color: grey; }
+    main .teamleader .team1 img {
+      width: 140px;
+      height: 140px; }
+    main .teamleader .team1 h3 {
+      color: grey;
+      font-size: 10px;
+      margin-top: 10px; }
+      @media (max-width: 426px) {
+        main .teamleader .team1 h3 {
+          font-size: 20px; } }
+    main .teamleader .team1 h4 {
+      font-size: 8px;
+      text-align: center;
+      width: 40%;
+      color: grey; }
+      @media (max-width: 426px) {
+        main .teamleader .team1 h4 {
+          font-size: 20px;
+          width: 90%; } }
+
+.thirdbox {
+  padding: 70px 0px 90px 0px;
+  background: url(../img/meeting.jfif);
+  width: 100%; }
+  .thirdbox .boxinfo {
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .thirdbox .boxinfo h2 {
+      color: #fff;
+      font-size: 15px; }
+      @media (max-width: 426px) {
+        .thirdbox .boxinfo h2 {
+          font-size: 22px; } }
+    .thirdbox .boxinfo hr {
+      width: 30px;
+      color: #fff;
+      margin-top: -8px; }
+    .thirdbox .boxinfo p {
+      width: 30%;
+      color: #fff;
+      font-size: 10px;
+      margin-bottom: 40px;
+      text-align: center; }
+      @media (max-width: 426px) {
+        .thirdbox .boxinfo p {
+          font-size: 20px;
+          width: 80%; } }
+  .thirdbox .map {
+    display: flex;
+    justify-content: center;
+    font-size: 10px; }
+    .thirdbox .map img {
+      width: 400px; }
+    @media (max-width: 376px) {
+      .thirdbox .map img {
+        width: 300px; }
+      .thirdbox .map .fa-map-marker-alt {
+        font-size: 12px; } }
+    .thirdbox .map .country1 {
+      position: absolute; }
+      .thirdbox .map .country1 .fa-map-marker-alt {
+        margin: 28px 119px 0px 0px;
+        color: #fff; }
+    .thirdbox .map .country2 {
+      position: absolute; }
+      .thirdbox .map .country2 .fa-map-marker-alt {
+        margin: 33px 20px 20px 73px;
+        color: #fff; }
+    .thirdbox .map .country3 {
+      position: absolute; }
+      .thirdbox .map .country3 .fa-map-marker-alt {
+        margin: 48px 20px 20px 130px;
+        color: #fff; }
+
+.fourthbox h4 {
+  padding-bottom: 4%;
+  font-size: 9px;
+  color: skyblue;
+  text-align: center; }
+.fourthbox h3 {
+  font-size: 9px;
+  color: #000;
+  text-align: center; }
+.fourthbox div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .fourthbox div .fas {
+    font-size: 32px;
+    color: skyblue;
+    display: flex;
+    align-items: center; }
+  .fourthbox div p {
+    width: 45%;
+    font-size: 10px;
+    text-align: center; }
+.fourthbox .teaminfo {
+  padding-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .fourthbox .teaminfo h2 {
+    color: skyblue;
+    font-size: 15px; }
+    @media (max-width: 426px) {
+      .fourthbox .teaminfo h2 {
+        font-size: 22px; } }
+  .fourthbox .teaminfo hr {
+    width: 30px;
+    color: skyblue;
+    margin-top: -8px;
+    border: skyblue solid 2px; }
+  .fourthbox .teaminfo p {
+    width: 30%;
+    color: grey;
+    font-size: 10px;
+    margin-bottom: 40px;
+    text-align: center; }
+    @media (max-width: 426px) {
+      .fourthbox .teaminfo p {
+        font-size: 20px;
+        width: 80%; } }
+.fourthbox .teamleader {
+  padding-bottom: 4%;
+  width: 60%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  @media (max-width: 426px) {
+    .fourthbox .teamleader {
+      width: 50%; } }
+  @media (max-width: 376px) {
+    .fourthbox .teamleader {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; } }
+  .fourthbox .teamleader .team1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px; }
+    .fourthbox .teamleader .team1 img {
+      height: 50px;
+      width: 50px; }
+
+.fifthbox {
+  background: url(../img/city.jpg); }
+  .fifthbox .boxinfo {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .fifthbox .boxinfo h2 {
+      color: white;
+      font-size: 15px; }
+      @media (max-width: 426px) {
+        .fifthbox .boxinfo h2 {
+          font-size: 22px; } }
+    .fifthbox .boxinfo hr {
+      font-size: 5px;
+      width: 30px;
+      color: white;
+      margin-top: -8px;
+      border: white solid 2px; }
+    .fifthbox .boxinfo p {
+      width: 30%;
+      color: white;
+      font-size: 10px;
+      margin-bottom: 40px;
+      text-align: center; }
+      @media (max-width: 426px) {
+        .fifthbox .boxinfo p {
+          font-size: 20px;
+          width: 80%; } }
+  .fifthbox .teamleader {
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    @media (max-width: 426px) {
+      .fifthbox .teamleader {
+        flex-direction: column; } }
+    .fifthbox .teamleader .team1 {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .fifthbox .teamleader .team1 .fas {
+        font-size: 50px; }
+      .fifthbox .teamleader .team1 .fab {
+        font-size: 50px; }
+      .fifthbox .teamleader .team1 h3 {
+        color: white;
+        font-size: 10px;
+        margin-top: 10px; }
+      .fifthbox .teamleader .team1 h4 {
+        font-size: 8px;
+        color: white; }
+  .fifthbox footer p {
+    padding-bottom: 4%;
+    margin-left: 20%;
+    width: 60%;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; }
+
+/*# sourceMappingURL=custom.css.map */
